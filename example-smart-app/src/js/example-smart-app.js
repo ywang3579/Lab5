@@ -51,7 +51,7 @@
           p.fname = fname;
           p.lname = lname;
           p.height = getQuantityValueAndUnit(height[0]);
-          p.weight=getQuantityValueAndUnit(weight);
+          p.weight=weight;
 
 
           if (typeof systolicbp != 'undefined')  {
